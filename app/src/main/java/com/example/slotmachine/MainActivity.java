@@ -127,7 +127,7 @@ public class MainActivity extends Activity {
 		if (test())
 			text.setText("恭喜連線!");
 		else
-			text.setText("請再接再厲..");
+			text.setText("請再接再厲...");
 
 		iv_pa.setImageResource(R.drawable.up_pa);
 		iv_pa.setEnabled(true);
