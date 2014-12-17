@@ -64,7 +64,7 @@ public class MainActivity extends Activity {
 					// §PÂ_moveªº¤è¦V
 					int now_y = (int) event.getY();
 					if (pre_y < now_y) {// ©¹¤U
-						text.setText("µnµnµnµnµn..");
+						text.setText("µnµnµnµnµn...");
 						iv_pa.setImageResource(R.drawable.down_pa);
 						iv_pa.setEnabled(false);
 						mixWheel(R.id.slot_1);
